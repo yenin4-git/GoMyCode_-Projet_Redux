@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.onClick-button{
+  background-color: #28f57a; /* Couleur de fond du bouton (bleu info) */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  padding: 8px 16px; /* Ajoute un peu de padding */
+  cursor: pointer; /* Change le curseur en pointeur */
+  border-radius: 4px; /* Arrondit les coins du bouton */
+  margin-right: 20px; /* Ajoute un espace à droite du bouton */
+  width: 100px; /* Largeur du bouton */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.onClick-button:hover {
+  background-color: green; /* Change la couleur au survol */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  background-color: rgb(246, 83, 83); /* Couleur de fond du bouton (bleu info) */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  padding: 8px 16px; /* Ajoute un peu de padding */
+  cursor: pointer; /* Change le curseur en pointeur */
+  border-radius: 4px; /* Arrondit les coins du bouton */
+  width: 100px; /* Largeur du bouton */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button:hover {
+  background-color: red; /* Change la couleur au survol */
+}
+
+.container-task{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  margin-right: 10px; /* Ajoute un espace à droite de l'input */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button-onClick {
+  background-color: #f0f5f6; /* Couleur de fond du bouton (bleu info) */
+  color: rgb(16, 15, 15); /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  padding: 8px 16px; /* Ajoute un peu de padding */
+  cursor: pointer; /* Change le curseur en pointeur */
+  border-radius: 4px; /* Arrondit les coins du bouton */
+  width: 150px; /* Largeur du bouton */
+}
+
+.Button-onClick:hover {
+  background-color: #0aed70; /* Change la couleur au survol */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Style pour l'input */
+.task-input {
+  margin-right: 20px; /* Ajoute un espace à droite de l'input */
+  height: 50px; /* Hauteur de l'input */
+}
+
+/* Style pour le bouton */
+.add-button {
+  background-color: #17a2b8; /* Couleur de fond du bouton (bleu info) */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  padding: 8px 16px; /* Ajoute un peu de padding */
+  cursor: pointer; /* Change le curseur en pointeur */
+  border-radius: 4px; /* Arrondit les coins du bouton */
+  width: 100px; /* Largeur du bouton */
+}
+
+.add-button:hover {
+  background-color: #2462e9; /* Change la couleur au survol */
 }
